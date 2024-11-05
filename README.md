@@ -22,7 +22,7 @@ This project provides a simple Flutter application where users can create and vi
 ## Features
 
 - **User Profile Management**:
-  - **Create Profile**: Users can enter their name, age, and occupation.
+  - **Create Profile**: Users can enter their name, age, and occupation. All fields are validated to avoid nulls, and ensure they register input according to their type. There is a minimum of 3 chars for strings and a valid age range from 18 to 100. The  registration button is not enabled until all the requirements are met.
   - **View Profile**: Display the saved profile information.
   - **Navigate Easily**: Buttons for moving between screens and returning to the home screen.
 - **Simple UI with Three Screens**:
